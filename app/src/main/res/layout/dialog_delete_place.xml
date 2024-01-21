@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_16dp"
+    android:padding="@dimen/_16dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageViewLocation"
+        android:layout_width="@dimen/_32dp"
+        android:layout_height="@dimen/_32dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_location_pin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewDeleteSavedPlace"
+        style="@style/TextViewSansSerifMedium.color_000000.18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16dp"
+        android:text="@string/label_delete_saved_place"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewLocation" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16dp"
+        android:gravity="center"
+        style="@style/TextViewSansSerifMedium.color_808080.16sp"
+        android:text="@string/text_are_you_sure_you_want_to_delete_this_place_details_from_your_saved_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewDeleteSavedPlace" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonOk"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16dp"
+        android:layout_marginEnd="@dimen/_16dp"
+        android:text="@string/label_ok"
+        style="@style/ButtonPink9dp"
+        app:layout_constraintEnd_toStartOf="@id/buttonCancel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewDescription" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonCancel"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16dp"
+        android:background="@drawable/bg_button_border_pink_9dp"
+        android:text="@string/label_cancel"
+        android:textAllCaps="false"
+        android:textColor="@color/color_FF0066"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buttonOk"
+        app:layout_constraintTop_toBottomOf="@id/textViewDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

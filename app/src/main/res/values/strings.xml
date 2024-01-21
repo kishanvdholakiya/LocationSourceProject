@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Location Source</string>
+    <string name="label_location_source">Location Source</string>
+    <string name="text_no_place_available_nlets_start_by_adding_few_places">No place available.\nLets start by adding few places</string>
+    <string name="label_add_poi">Add POI</string>
+    <string name="label_search_places">Search Places</string>
+    <string name="label_result">Result</string>
+    <string name="label_search_place">Search Place</string>
+    <string name="hint_eg_vastrapur">Eg vastrapur</string>
+    <string name="label_do_you_want_to_save_this_selected_location">Do you want to save this selected\nlocation ?</string>
+    <string name="label_save">Save</string>
+    <string name="text_location_source_already_added_please_choose_different_location">Location source already exists.</string>
+    <string name="text_primary">Primary</string>
+    <string name="text_distance">Distance: %1$s KM</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_sort_by">SORT BY</string>
+    <string name="text_sort_distance_in_ascending_order">Sort distance in ascending order</string>
+    <string name="text_sort_distance_in_descending_order">Sort distance in descending order</string>
+    <string name="label_apply">Apply</string>
+    <string name="label_clear">Clear</string>
+    <string name="msg_please_select_sort_option">Please select sort option</string>
+    <string name="msg_please_add_place">Please add place</string>
+    <string name="label_delete_saved_place">Delete Saved Place</string>
+    <string name="label_ok">OK</string>
+    <string name="text_are_you_sure_you_want_to_delete_this_place_details_from_your_saved_list">Are you sure you want to delete this place details from your saved list?</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_update">Update</string>
+    <string name="text_generating_route_information">Generating route information</string>
+    <string name="text_please_wait">Please wait....</string>
+    <string name="label_routing">Routing</string>
+</resources>
